@@ -1,5 +1,12 @@
-<div id="Background" flex fxLayoutAlign="center">
-    <div id="MainColumn">
-        <router-outlet id="PageSpace"></router-outlet>
+<div id="Background" flex fxLayout="column">
+    <div id="ToolBar">
+        <button mat-icon-button color="primary">
+            <mat-icon>home</mat-icon>
+        </button>
+    </div>
+    <div id="ColumnSpace" fxLayoutAlign="center">
+        <div id="MainColumn">
+            <router-outlet id="PageSpace"></router-outlet>
+        </div>
     </div>
 </div>
