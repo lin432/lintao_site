@@ -9,6 +9,9 @@ import { HomeComponent } from './home/home.component';
 import { TranslateLoader, TranslateModule } from '@ngx-translate/core';
 import { TranslateHttpLoader } from '@ngx-translate/http-loader';
 import { HttpClient } from '@angular/common/http';
+import { AboutComponent } from './home/about/about.component';
+import { SkillsComponent } from './home/skills/skills.component';
+import { ProjectsComponent } from './home/projects/projects.component';
 
 export function HttpLoaderFactory(http: HttpClient) {
   return new TranslateHttpLoader(http, './assets/i18n/', '.json');
@@ -17,7 +20,10 @@ export function HttpLoaderFactory(http: HttpClient) {
 @NgModule({
   declarations: [
     AppComponent,
-    HomeComponent
+    HomeComponent,
+    AboutComponent,
+    SkillsComponent,
+    ProjectsComponent
   ],
   imports: [
     BrowserModule,
