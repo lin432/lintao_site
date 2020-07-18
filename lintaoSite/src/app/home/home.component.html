@@ -1,7 +1,7 @@
 <div name="header">
-    <h3>Hi, welcome to the site of</h3>
+    <h3>{{'APP.HOME.HEADER_INTRO' | translate}}</h3>
     <div name="SiteAuthor" class="offset">
-        <h1>Lintao Yin</h1>
+        <h1>{{'SITE_AUTHOR' | translate}}</h1>
     </div>
 </div>
 
@@ -9,7 +9,19 @@
 <!-- Try for a card like effect that looks kind of like one long scroll. Separate sections with a section line-->
 <div id="HomeContents" class="SitePage">
     <!-- About Me Section, Also talks about the site-->
-    <app-about></app-about>
+    <mat-accordion>
+        <mat-expansion-panel>
+            <mat-expansion-panel-header>
+                <mat-panel-title>
+                    {{'APP.HOME.ABOUT.SECTION_TITLE' | translate}}
+                </mat-panel-title>
+
+            </mat-expansion-panel-header>
+            <app-about></app-about>
+        </mat-expansion-panel>
+
+    </mat-accordion>
+
     <!--Skills Box with switch between fancy and simple displays-->
     <app-skills></app-skills>
     <!--Simple list of projects sorted and arranged by date, use expansion panels-->

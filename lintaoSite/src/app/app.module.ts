@@ -8,7 +8,7 @@ import { MaterialDesignModule } from './material/material-design.module';
 import { HomeComponent } from './home/home.component';
 import { TranslateLoader, TranslateModule } from '@ngx-translate/core';
 import { TranslateHttpLoader } from '@ngx-translate/http-loader';
-import { HttpClient } from '@angular/common/http';
+import { HttpClient, HttpClientModule } from '@angular/common/http';
 import { AboutComponent } from './home/about/about.component';
 import { SkillsComponent } from './home/skills/skills.component';
 import { ProjectsComponent } from './home/projects/projects.component';
@@ -30,6 +30,8 @@ export function HttpLoaderFactory(http: HttpClient) {
     AppRoutingModule,
     BrowserAnimationsModule,
     MaterialDesignModule,
+    TranslateModule,
+    HttpClientModule,
     TranslateModule.forRoot({
       loader: {
         provide: TranslateLoader,
