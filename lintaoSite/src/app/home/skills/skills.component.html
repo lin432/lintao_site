@@ -1,1 +1,20 @@
-<p>skills works!</p>
+<!-- Split it into technical and interpersonal -->
+<!-- Ideally host this in a graph based relation connected to projects -->
+<!-- Should be a loose search which accounts for similar words depending on the input -->
+<!-- represent as a dynamic list or as a complex graph -->
+
+<!-- List representation should separate by tagging items as interpersonal and explaining via tooltip -->
+<mat-accordion>
+    <!-- About Me Section, Also talks about the site-->
+    <mat-expansion-panel>
+        <mat-expansion-panel-header>
+            <mat-panel-title>
+                {{'APP.HOME.ABOUT.SECTION_TITLE' | translate}}
+            </mat-panel-title>
+            <mat-panel-description>
+                {{'APP.HOME.ABOUT.SECTION_TITLE' | translate}}
+            </mat-panel-description>
+        </mat-expansion-panel-header>
+        <app-about></app-about>
+    </mat-expansion-panel>
+</mat-accordion>

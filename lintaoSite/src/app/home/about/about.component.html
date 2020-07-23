@@ -5,14 +5,22 @@
     <p>
         {{'APP.HOME.ABOUT.SITE' | translate}}
     </p>
-    <!--Create a hidden list of all libraries used with links-->
+    <mat-slide-toggle>{{'APP.HOME.ABOUT.TECHNOLOGY_SLIDER' | translate}}</mat-slide-toggle>
+
+    <mat-accordion>
+        <mat-expansion-panel>
+            <mat-expansion-panel-header>
+                <mat-panel-title>
+                    TEST
+                </mat-panel-title>
+            </mat-expansion-panel-header>
+        </mat-expansion-panel>
+    </mat-accordion>
+
 </div>
 
 <div name="About Me">
     <!--Find a new image or something and place here-->
-    <p>
-        {{'APP.HOME.ABOUT.SITE_AUTHOR' | translate}}
-    </p>
     <p>
         {{'APP.HOME.ABOUT.SELF' | translate}}
     </p>
@@ -26,10 +34,18 @@
         <p>
             {{'APP.HOME.ABOUT.GOALS' | translate}}
         </p>
-        <!-- List of goals as a disabled checklist with expandable dates and explanation-->
+        <!-- List of goals with completion dates and checks-->
+        <mat-accordion>
+            <mat-expansion-panel>
+                <mat-expansion-panel-header>
+                    <mat-panel-title>
+                        TEST
+                    </mat-panel-title>
+                </mat-expansion-panel-header>
+            </mat-expansion-panel>
+        </mat-accordion>
     </div>
     <p>
         {{'APP.HOME.ABOUT.CONCLUSION' | translate}}
     </p>
 </div>
-

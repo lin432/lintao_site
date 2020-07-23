@@ -6,12 +6,21 @@
                 "SECTION_TITLE": "About",
                 "DESCRIPTION": "Learn about this site and it's author",
                 "SITE":"Welcome to my site. This is an Angular website INPUT HOSTING DETAILS HERE. The goal of this site is to provide a professional representation of my skills as a full stack web developer. As such this website will be periodically updated with new technology and information as my current life changes. The contents of this site is an in-depth overview of my qualifications as a professional.  This means my skills, both interpersonal and technical, as well as my professional experience(s) and goals. Additionally, you can enable a personal toggle in order to show case my personal hobbies and achievements. These are not related to my professional career but give an image of what I enjoy during my weekends.",
+                "TECHNOLOGY_SLIDER": "Technology Used:",
                 "TECHNOLOGY_TEXT": "This site uses the following technologies:",
                 "SELF": "I’m an amiable and dedicated programmer looking to continually improve myself. I do this by following influential members of the tech industry and playing around with areas of the tech world I haven’t explored. I’ve just recently finished all of my courses for my Bachelor’s degree for Computer Science and will be convocating sometime in 2021. I consider myself an expert of front end programming and have experience with a multitude of backend clients such as Microsoft Azure and Google Cloud Environments.",
                 "CURRENT": "Currently I am wrapping up my final years of study in the University of Toronto as a B.s.c of Computer Science. As such I am planning on returning to the professional world. In order to do so I am updating and writing down my plans and goals in life on this website and in other ways. I am also continuing to further my hobbies and reach new heights with them",
                 "GOALS": "My professional goal is to eventually fill the position of Lead programmer for an application I truly want to create. In order to do so I’ll need to be up to date on new tech innovations as well as experience implementing unstable and novel software and tools. This website is an example of my commitment to this goal and my dedication to growing my toolset.",
                 "DRIVE": "Creating things drives me forward. I love being able to see the results of my work and other people’s reactions to them. This is part of the reason why Computer Science is my career of choice as even creating a simple shell script to a full website can be shown off. This can even be seen with my hobbies, the most obvious one being plastic modelling. However, card games like magic the gathering are also about creating a deck to play with and for many games being able to show off your save file is something that you have also created.",
                 "CONCLUSION": "So, to conclude, enjoy looking at what I’ve created."
+            },
+            "SKILLS": {
+                "SECTION_TITLE": "Skills",
+                "DESCRIPTION": "Find my professional skills here"
+            },
+            "PROJECTS": {
+                "SECTION_TITLE": "Projects",
+                "DESCRIPTION": "Find out more about any of my projects here"
             }
         }
     },
